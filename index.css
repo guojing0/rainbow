@@ -1,0 +1,28 @@
+@-webkit-keyframes rainbow {
+  0% {background: red;}
+  16.7% {background: orange;}
+  33.4% {background: yellow;}
+  50.1% {background: green;}
+  66.8% {background: blue;}
+  83.5% {background: indigo;}
+  100% {background: violet;}
+}
+
+@keyframes rainbow {
+  0% {background: red;}
+  16.7% {background: orange;}
+  33.4% {background: yellow;}
+  50.1% {background: green;}
+  66.8% {background: blue;}
+  83.5% {background: indigo;}
+  100% {background: violet;}
+}
+
+div {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border: 0px;
+  -webkit-animation:  4.326s rainbow infinite; 
+  animation:  4.326s rainbow infinite;
+}
