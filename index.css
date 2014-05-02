@@ -23,6 +23,8 @@ div {
   width: 200px;
   height: 200px;
   border: 0px;
-  -webkit-animation:  4.326s rainbow infinite; 
+  -webkit-animation:  4.326s rainbow infinite;
   animation:  4.326s rainbow infinite;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
 }
