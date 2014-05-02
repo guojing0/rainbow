@@ -26,5 +26,5 @@ div {
   -webkit-animation:  4.326s rainbow infinite;
   animation:  4.326s rainbow infinite;
   -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
+  border-radius: 20px;
 }
